@@ -2,8 +2,6 @@ machine:
   environment:
     HOME: "/home/ubuntu"
     GOPATH: "$HOME/concourse-atc/cmd"
-    GOROOT: "$HOME/concourse-atc/cmd"
-    PATH: "$PATH:$GOROOT"
   ruby:
     version: rbx-2.2.6
   services:
