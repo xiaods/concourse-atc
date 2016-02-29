@@ -1,8 +1,7 @@
 machine:
   environment:
     HOME: "/home/ubuntu"
-    GOPATH: "$HOME/gopath"
-    GOROOT: "$HOME/go"
+    GOPATH: "$HOME/go"
   ruby:
     version: rbx-2.2.6
   services:
