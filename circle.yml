@@ -1,7 +1,7 @@
 machine:
   environment:
     HOME: "/home/ubuntu"
-    GOPATH: "$HOME/go"
+    GOPATH: "$HOME/concourse-atc"
   ruby:
     version: rbx-2.2.6
   services:
