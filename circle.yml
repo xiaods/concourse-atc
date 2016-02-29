@@ -5,6 +5,8 @@ machine:
     GOROOT: "$HOME/concourse-atc"
   ruby:
     version: rbx-2.2.6
+  golang:
+    version: 1.5
   services:
     - docker
 
