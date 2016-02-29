@@ -36,7 +36,7 @@ end
 namespace :go do
   desc 'builds the atcd binary'
   task :build do
-    run_command '(cd cmd/atcd; go get ; go build -o ../../target/bin/atcd)'
+    run_command '(cd cmd/src/atcd; go get ; go build -o ../../../target/bin/atcd)'
   end
 end
 
